@@ -1,19 +1,19 @@
 const gameData = {
     "1": {
-        "text": "it is friday 12 noon. where are u now?",
-        "image" : "smaller_images/snackies.png",
+        "text": "It is friday 12 noon. Where are u now?",
+        "image" : "smaller_images/1.png",
 "choices": {
-            "raffles hotel having high tea": [21,["clairssant"]],
-            "in my office :(": [22,["cronut", "cronigiri", "crotiao"]],
-            "hanging out at a cafe with my girlies": [21,["almond", "matcha"]],
-            "chairing a meeting": [22,["plainssant"]],
-            "working out at the gym": [23, ["brossant"]]
+            "Raffles Hotel having high tea": [21,["clairssant"]],
+            "In my office :(": [22,["cronut", "cronigiri", "crotiao"]],
+            "Hanging out at a cafe with my girlies": [21,["almond", "matcha"]],
+            "Chairing a meeting": [22,["plainssant"]],
+            "Working out at the gym": [23, ["brossant"]]
         }
     },
 
     "10": {
-        "text": "we’ve been through life together not knowing that we exhibit ssant traits. what ssant are you?",
-        "image" : "smaller_images/another_day.png",
+        "text": "We’ve been through life together not knowing that we exhibit ssant traits. What ssant are you?",
+        "image" : "smaller_images/10.png",
 "choices" : {
             "click here!": [0, []],
         } 
@@ -21,7 +21,7 @@ const gameData = {
 
     "21":{
         "text": "What drink are you having?",
-        "image" : "smaller_images/at_apartment.png",
+        "image" : "smaller_images/21.png",
 "choices": {
             "Cafe latte": [3,["almond"]],
             "Iced Americano": [3,["cronut"]],
@@ -31,8 +31,8 @@ const gameData = {
         }
     },
 "22": {
-    "text": "your colleagues ask u out for lunch. do you",
-    "image": "smaller_images/at_apartment.png",
+    "text": "Your colleagues ask you out for lunch. Do you",
+    "image": "smaller_images/22.png",
     "choices": {
         "join them": [3, ["almond"]],
         "ask them to go to a restaurant you recommend": [3, ["matcha"]],
@@ -43,8 +43,8 @@ const gameData = {
 },
 
 "23": {
-    "text": "you are deciding what to do at the gym. do you",
-    "image": "smaller_images/at_apartment.png",
+    "text": "You are deciding what to do at the gym. Do you",
+    "image": "smaller_images/23.png",
     "choices": {
         "go for spin": [4, ["almond"]],
         "lift some heavy weights": [4, ["brossant"]],
@@ -55,8 +55,8 @@ const gameData = {
 },
 
 "3": {
-    "text": "what do you guys talk about",
-    "image": "smaller_images/at_apartment.png",
+    "text": "What do you guys talk about?",
+    "image": "smaller_images/3.png",
     "choices": {
         "the same old stories from secondary sch the nth time": [4, ["crotiao"]],
         "remind everyone that mooncake festival is coming": [4, ["moonssant"]],
@@ -67,8 +67,8 @@ const gameData = {
 
 
 "4": {
-    "text": "its 5pm now. do you",
-    "image": "smaller_images/at_apartment.png",
+    "text": "It's the end of the day. Do you",
+    "image": "smaller_images/4.png",
     "choices": {
         "prepare to head out for drinks": [5, ["brossant", "almond"]],
         "go back to the gym": [23, ["brossant"]],
@@ -78,8 +78,8 @@ const gameData = {
 },
 
 "5": {
-    "text": "you were about to do that but you get a phone call from your good friend.\nyou pick up and say",
-    "image": "smaller_images/at_apartment.png",
+    "text": "You were about to do that but you get a phone call from your good friend. You pick up and say",
+    "image": "smaller_images/5.png",
     "choices": {
         "brooo whats up bro": [6, ["brossant"]],
         "hi babe": [6, ["almond", "clairssant", "matcha"]],
@@ -89,8 +89,8 @@ const gameData = {
 },
 
 "6": {
-    "text": "your good friend invites you to climb the dolomites. what is your response",
-    "image": "smaller_images/at_apartment.png",
+    "text": "Your good friend invites you to climb the Dolomites. What is your response",
+    "image": "smaller_images/6.png",
     "choices": {
         "ya lets go man! when?": [7, ["cronigiri"]],
         "what is that": [7, ["clairssant"]],
@@ -102,8 +102,8 @@ const gameData = {
 },
 
 "7": {
-    "text": "you are packing for the trip\nwhat is your packing philosophy",
-    "image": "smaller_images/at_apartment.png",
+    "text": "You are packing for the trip. What is your packing philosophy?",
+    "image": "smaller_images/7.png",
     "choices": {
         "‘i just pack light’": [8, ["plainssant", "cronigiri", "cronut"]],
         "‘just pack the essentials. if i’m missing anything i will definitely find/ pick up (hehe) things along the way’": [8, ["brossant"]],
@@ -114,8 +114,8 @@ const gameData = {
 },
 
 "8": {
-    "text": "you and your friends are climbing the dolomites, when one of your friends fell\nwhat do you do",
-    "image": "smaller_images/at_apartment.png",
+    "text": "You and your friends are climbing the dolomites, when one of your friends fell. what do you do?",
+    "image": "smaller_images/8.png",
     "choices": {
         "rush to their aid": [9, ["cronigiri", "crotiao"]],
         "saw that they are ok so you start taking a video of the situation": [9, ["brossant"]],
@@ -126,8 +126,8 @@ const gameData = {
 },
 
 "9": {
-    "text": "you help your friend up and everyone makes it down the mountain safely :)\nyou celebrate by",
-    "image": "smaller_images/at_apartment.png",
+    "text": "You help your friend up and everyone makes it down the mountain safely :) You celebrate by",
+    "image": "smaller_images/9.png",
     "choices": {
         "going to the onsen and seeing everyone’s kkj and boobies": [10, ["cronigiri"]],
         "going to a beer garden": [10, ["brossant"]],
@@ -217,7 +217,7 @@ function revealMostSelectedVegetable() {
 
     // Create the share button
     const shareButton = document.createElement('button');
-    shareButton.textContent = 'Share the game with Friends';
+    shareButton.textContent = 'Share this with other ssants';
     shareButton.className = 'choice-button';
 
     // Once the image is loaded, update the DOM
